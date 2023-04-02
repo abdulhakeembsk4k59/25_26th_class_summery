@@ -1,0 +1,21 @@
+.tab {
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #ccc;
+}
+
+.panel {
+  display: none;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.panel.active {
+  display: block;
+}
